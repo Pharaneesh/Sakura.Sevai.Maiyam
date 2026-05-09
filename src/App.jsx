@@ -148,18 +148,46 @@ export default function SakuraSevaiMayyam() {
                 <
                 /div>
 
-                { /* Payment Methods */ } <
+                { /* Payment Methods */ } { /* Payment Methods */ } <
                 div className = "mt-8 grid gap-4" >
+
                 <
-                button className = "w-full bg-gradient-to-r from-pink-500 to-rose-600 text-white py-4 rounded-2xl text-lg font-semibold shadow-lg hover:scale-[1.02] transition-all" >
-                Pay via UPI <
-                /button> <
-                button className = "w-full border border-gray-300 py-4 rounded-2xl text-lg font-semibold hover:bg-gray-50 transition-all" >
-                Pay via Debit / Credit Card <
-                /button> <
-                button className = "w-full border border-gray-300 py-4 rounded-2xl text-lg font-semibold hover:bg-gray-50 transition-all" >
-                Net Banking <
-                /button> <
+                button disabled className = "w-full bg-gray-200 text-gray-500 py-4 rounded-2xl text-lg font-semibold cursor-not-allowed" >
+                UPI Integration Coming Soon <
+                /button>
+
+                <
+                button disabled className = "w-full bg-gray-200 text-gray-500 py-4 rounded-2xl text-lg font-semibold cursor-not-allowed" >
+                Card Payment Coming Soon <
+                /button>
+
+                <
+                button disabled className = "w-full bg-gray-200 text-gray-500 py-4 rounded-2xl text-lg font-semibold cursor-not-allowed" >
+                Net Banking Coming Soon <
+                /button>
+
+                <
+                /div>
+
+                { /* Temporary Donation Info */ } <
+                div className = "mt-8 bg-pink-50 border border-pink-200 rounded-2xl p-5" >
+                <
+                h3 className = "text-lg font-bold text-pink-700" >
+                Donation Support <
+                /h3>
+
+                <
+                p className = "mt-3 text-gray-700 leading-7" >
+                Online payment gateway setup is currently in progress.Until then, please contact us directly
+                for donation support. <
+                /p>
+
+                <
+                div className = "mt-4 text-sm text-gray-700 space-y-2" >
+                <
+                p > 📞+91 99441 20241 < /p> <
+                p > ✉️support @sakurasevaimaiyam.org < /p> <
+                /div> <
                 /div>
 
                 { /* Footer Buttons */ } <
